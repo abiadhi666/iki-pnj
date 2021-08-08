@@ -16,7 +16,7 @@
   <div id="app">
     <h1 v-text="'Hello, ' + title"></h1>
     <header-component></header-component>
-    <example-component></example-component>
+    <router-view></router-view>
     <footer-component></footer-component>
   </div>
 <script src="{{asset('js/app.js')}}"></script>

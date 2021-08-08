@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <a href="">Home</a>
-    <a href="">About</a>
+    <router-link to="/beranda">Beranda</router-link>
+    <router-link to="/tentang">Tentang</router-link>
   </nav>
 </template>
